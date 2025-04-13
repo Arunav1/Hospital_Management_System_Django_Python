@@ -1,15 +1,19 @@
-{% extends 'hospital/admin_base.html' %}
-{% load static %}
-{% block content %}
-<br><br>
+{% extends 'hospital/admin_base.html' %} {% load static %} {% block content %}
+<br /><br />
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+  />
 
   <style type="text/css">
     a:link {
@@ -37,13 +41,12 @@
     }
 
     .bg-c-yellow {
-      background: linear-gradient(45deg, #FFB64D, #ffcb80);
+      background: linear-gradient(45deg, #ffb64d, #ffcb80);
     }
 
     .bg-c-pink {
-      background: linear-gradient(45deg, #FF5370, #ff869a);
+      background: linear-gradient(45deg, #ff5370, #ff869a);
     }
-
 
     .card {
       border-radius: 5px;
@@ -73,7 +76,10 @@
   </style>
 </head>
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+  rel="stylesheet"
+/>
 <div class="container">
   <div class="row">
     <div class="col-md-4 col-xl-3">
@@ -82,9 +88,8 @@
           <a href="/admin-view-doctor">
             <h6 class="m-b-20">Doctor Record</h6>
           </a>
-          <br>
+          <br />
           <h2 class="text-right"><i class="fas fa-user-nurse f-left"></i></h2>
-
         </div>
       </div>
     </div>
@@ -95,7 +100,7 @@
           <a href="/admin-add-doctor">
             <h6 class="m-b-20">Register Doctor</h6>
           </a>
-          <br>
+          <br />
           <h2 class="text-right"><i class="fas fa-user-plus f-left"></i></h2>
         </div>
       </div>
@@ -107,7 +112,7 @@
           <a href="/admin-approve-doctor">
             <h6 class="m-b-20">Approve Doctor</h6>
           </a>
-          <br>
+          <br />
           <h2 class="text-right"><i class="fas fa-check-circle f-left"></i></h2>
         </div>
       </div>
@@ -119,17 +124,13 @@
           <a href="/admin-view-doctor-specialisation">
             <h6 class="m-b-20">Doctor Specialisation</h6>
           </a>
-          <br>
+          <br />
           <h2 class="text-right"><i class="fas fa-user-md f-left"></i></h2>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!--
-  developed By : sumit kumar
-  facebook : fb.com/sumit.luv
-  youtube : youtube.com/lazycoders
-  -->
-<br><br><br><br><br><br><br>
+
+<br /><br /><br /><br /><br /><br /><br />
 {% endblock content %}

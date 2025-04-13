@@ -1,8 +1,11 @@
-{% extends 'hospital/admin_base.html' %}
-{% block content %}
+{% extends 'hospital/admin_base.html' %} {% block content %}
 
 <head>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link
+    href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+    rel="stylesheet"
+    id="bootstrap-css"
+  />
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
@@ -20,10 +23,7 @@
     }
   </style>
 </head>
-<!--
-written By : sumit kumar
-facebook : fb.com/sumit.luv
--->
+
 <div class="container">
   <div class="panel panel-primary">
     <div class="panel-heading">
@@ -40,7 +40,7 @@ facebook : fb.com/sumit.luv
       </thead>
       {% for a in appointments %}
       <tr>
-        <td> {{a.doctorName}}</td>
+        <td>{{a.doctorName}}</td>
         <td>{{a.patientName}}</td>
         <td>{{a.description}}</td>
         <td>{{a.appointmentDate}}</td>
@@ -49,10 +49,5 @@ facebook : fb.com/sumit.luv
     </table>
   </div>
 </div>
-<!--
-developed By : sumit kumar
-facebook : fb.com/sumit.luv
-youtube : youtube.com/lazycoders
--->
 
 {% endblock content %}
